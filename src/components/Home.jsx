@@ -23,7 +23,7 @@ const Home = () => {
       >
       <Text fontSize={'6xl'} textAlign={'center'} fontWeight={'thin'}  color={'whiteAlpha.700'}>CryptoWatchr</Text>
 
-<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', marginTop: '-90px' }}>
   <Image 
     w={'70rem'}  // Adjust the width to your desired dimension
     h={'auto'}  // Let the height adjust automatically based on the aspect ratio
@@ -32,6 +32,7 @@ const Home = () => {
     filter={"grayscale(1)"}
   />
 </div>
+
 
 
 
