@@ -23,7 +23,6 @@ const Footer = () => {
       <Avatar src={founder} boxSize={'28'} />
     </Flex>
     <Text>Created by Karthik Nadar</Text>
-    <Text>Our Founder</Text>
   </VStack>
 </Flex>
         </Stack>

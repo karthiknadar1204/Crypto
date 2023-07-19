@@ -18,21 +18,25 @@ const Home = () => {
         duration:2,
         repeat:Infinity,
         repeatType:'reverse'
-
+        
       }}
-      
       >
-<Image 
-  w={'full'} 
-  h={'full'} 
-  objectFit={'contain'} 
-  src={BtcSrc} 
-  filter={"grayscale(1)"}
-/>
+      <Text fontSize={'6xl'} textAlign={'center'} fontWeight={'thin'}  color={'whiteAlpha.700'}>CryptoWatchr</Text>
+
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+  <Image 
+    w={'70rem'}  // Adjust the width to your desired dimension
+    h={'auto'}  // Let the height adjust automatically based on the aspect ratio
+    objectFit={'contain'} 
+    src={BtcSrc} 
+    filter={"grayscale(1)"}
+  />
+</div>
+
+
 
 
       </motion.div>
-      <Text fontSize={'6xl'} textAlign={'center'} fontWeight={'thin'} mt={'-20'} color={'whiteAlpha.700'}>XCRYPTO</Text>
 
     </Box>
   )
