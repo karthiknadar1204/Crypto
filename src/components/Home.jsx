@@ -22,13 +22,14 @@ const Home = () => {
       }}
       
       >
-      <Image 
-      w={'full'} 
-      h={'full'} 
-      objectFit={'contain'} 
-      src={BtcSrc} 
-      filter={"grayscale(1)"}
-      />
+<Image 
+  w={'full'} 
+  h={'full'} 
+  objectFit={'contain'} 
+  src={BtcSrc} 
+  filter={"grayscale(1)"}
+/>
+
 
       </motion.div>
       <Text fontSize={'6xl'} textAlign={'center'} fontWeight={'thin'} mt={'-20'} color={'whiteAlpha.700'}>XCRYPTO</Text>

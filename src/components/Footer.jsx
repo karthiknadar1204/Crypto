@@ -1,5 +1,6 @@
-import { Avatar, Box, Stack, Text, VStack } from '@chakra-ui/react'
+import { Avatar, Box, Flex, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
+import founder from "../Assets/karthik.jpeg"
 
 
 const Footer = () => {
@@ -8,29 +9,24 @@ const Footer = () => {
 
         <Stack direction={['column','row']} h={'full'} alignItems={'center'} >
 
-        <VStack w={'full'} alignItems={["center","flex-start"]} >
-            <Text fontWeight={'bold'} >
-                About us
-            </Text>
-            <Text fontSize={'sm'} letterSpacing={'widest'} textAlign={['center','left']} >We are thebest crypto trading app in India,Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non itaque possimus mollitia blanditiis aliquid, doloremque veritatis quibusdam, praesentium, laudantium tempore harum ipsa alias. Facere quod ab ex eius accusantium?
-            Voluptatem reiciendis veniam quae! Deserunt nesciunt unde aliquam accusamus voluptas quo laboriosam impedit, repellendus iste fugiat blanditiis perspiciatis excepturi tempore neque, necessitatibus eaque quibusdam omnis adipisci quis odit vero! Quis?</Text>
-
-        </VStack>
-
-
+        <VStack w={'full'} alignItems={['center', 'flex-start']}>
+  <Text fontWeight={'bold'}>About us</Text>
+  <Text fontSize={'sm'} letterSpacing={'widest'} textAlign={['center', 'left']}>
+    This application is designed to provide users with information about cryptocurrencies and exchanges. It allows you to explore various coins, view their details, and discover different exchanges. Stay informed and make informed decisions in the world of digital currencies with our application.
+  </Text>
+</VStack>
         <VStack>
-
         </VStack>
-        <Avatar boxSize={'28'} mt={["4","0"]}/>
-        <Text>Our Founder</Text>
-
-        
-
-        
+<Flex justify="center" align="center" p="4" bgColor="blackAlpha.900" minH="100%">
+  <VStack spacing="2">
+    <Flex justify="center">
+      <Avatar src={founder} boxSize={'28'} />
+    </Flex>
+    <Text>Created by Karthik Nadar</Text>
+    <Text>Our Founder</Text>
+  </VStack>
+</Flex>
         </Stack>
-
-        
-
     </Box>
   )
 }
